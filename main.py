@@ -1,7 +1,9 @@
 def convert_all():
+    print('Welcome! Here you can translate numbers from different systems (temperature, length)\n'
+          'If you want to quit the program, enter Q\n')
     while True:
         choose_conv = (input('Please, select by what criterion the conversion will be carried out '
-                             '- Temperature (1) or Length (2)'))
+                             '- Temperature (1) or Length (2) or Exit(Q) -------> '))
         # Convert temperature
         if choose_conv == '1':
             while True:
@@ -14,7 +16,9 @@ def convert_all():
                     value_temperature = float(input('How many degrees Celsius?: '))
                     print(value_temperature, 'degrees Celsius =', round((value_temperature + 273.15), 2),
                           'degrees Kelvin')
-
+                else:
+                    print('Incorrect entry. Please try again.')
+                    continue
                 break
 
         # Convert length
@@ -35,6 +39,9 @@ def convert_all():
                     value_of_len = float(input('How many centimeters?: '))
                     print(value_of_len, 'centimeters =', round((value_of_len * 2.5400013716), 2), 'inches')
                     break
+        elif choose_conv == 'Q':
+            print('All the best! :)')
+            quit(0)
 
 
 if __name__ == '__main__':
