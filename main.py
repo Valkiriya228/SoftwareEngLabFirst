@@ -38,10 +38,16 @@ def convert_all():
                 elif choose_type_len == '4':
                     value_of_len = float(input('How many centimeters?: '))
                     print(value_of_len, 'centimeters =', round((value_of_len * 2.5400013716), 2), 'inches')
-                    break
+                else:
+                    print('Incorrect entry. Please try again.')
+                    continue
+                break
         elif choose_conv == 'Q':
             print('All the best! :)')
             quit(0)
+        else:
+            print('Incorrect entry. Please try again.')
+            continue
 
 
 if __name__ == '__main__':
