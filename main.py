@@ -3,7 +3,7 @@ def convert_all():
           'If you want to quit the program, enter Q\n')
     while True:
         choose_conv = (input('Please, select by what criterion the conversion will be carried out '
-                             '-Temperature (1) or Length (2) or Exit(Q) -------> '))
+                             '- Temperature (1) or Length (2) or Exit(Q) -------> '))
         # Convert temperature
         if choose_conv == '1':
             while True:
