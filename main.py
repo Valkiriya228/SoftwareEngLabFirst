@@ -4,7 +4,7 @@ def convert_all():
     while True:
         choose_conv = (input('Please, select by what criterion the conversion will be carried out '
                              '- Temperature (1) or Length (2) or Exit(Q) -------> '))
-        # Convert temperature
+        #Convert temperature
         if choose_conv == '1':
             while True:
                 choose_temp = input('Choose: 1.Celsius -> Fahrenheit 2.Celsius -> Kelvin ------> ')
