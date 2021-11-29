@@ -10,7 +10,7 @@ def convert_all():
                 choose_temp = input('Choose: 1.Celsius -> Fahrenheit 2.Celsius -> Kelvin ------> ')
                 if choose_temp == '1':
                     value_temperature = float(input('How many degrees Celsius?: '))
-                    print(value_temperature, 'degrees Celsius =', round(((9 / 5) * value_temperature + 32), 2),
+                    print(value_temperature, 'degres Celsius =', round(((9 / 5) * value_temperature + 32), 2),
                           'degrees Fahrenheit')
                 elif choose_temp == '2':
                     value_temperature = float(input('How many degrees Celsius?: '))
