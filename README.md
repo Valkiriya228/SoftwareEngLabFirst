@@ -11,7 +11,7 @@ Temperature (1) or Length (2) or Exit(Q) -------> 1
 Choose: 1.Celsius -> Fahrenheit 2.Celsius -> Kelvin ------> 222
 Incorrect entry. Please try again.
 Choose: 1.Celsius -> Fahrenheit 2.Celsius -> Kelvin ------> 2
-How many degrees Celsius?: 0
+How many degrees Celsius?: 0 
 0.0 degrees Celsius = 273.15 degrees Kelvin
 Please, select by what criterion the conversion will be carried out - 
 Temperature (1) or Length (2) or Exit(Q) -------> Q
