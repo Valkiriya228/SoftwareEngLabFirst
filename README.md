@@ -17,3 +17,9 @@ Please, select by what criterion the conversion will be carried out -
 Temperature (1) or Length (2) or Exit(Q) -------> Q
 All the best! :)
 ```
+Запустим скрипт в докер контейнере:
+
+```docker build .```  
+```docker run -it <image> ```  
+
+![](https://raw.githubusercontent.com/Valkiriya228/SoftwareEngLabFirst/master/docker.png "")  
