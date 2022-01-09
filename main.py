@@ -44,7 +44,7 @@ def main():
                 break
         elif choose_conv == 'Q':
             print('All the best! :)')
-            quit(0)
+            break
         else:
             print('Incorrect entry. Please try again.')
             continue
