@@ -9,13 +9,13 @@ def main():
             while True:
                 choose_temp = input('Choose: 1.Celsius -> Fahrenheit 2.Celsius -> Kelvin ------> ')
                 if choose_temp == '1':
-                    value_temperature = float(input('How many degrees Celsius?: '))
-                    print(value_temperature, 'degrees Celsius =', round(((9 / 5) * value_temperature + 32), 2),
-                          'degrees Fahrenheit')
+                    value_temperature = float(input('Choose: 1.Celsius -> Fahrenheit 2.Celsius -> Kelvin ------> '))
+                    print(f'{value_temperature} degrees Celsius = {round(((9 / 5) * value_temperature + 32), 2)} '
+                          f'degrees Fahrenheit')
                 elif choose_temp == '2':
                     value_temperature = float(input('How many degrees Celsius?: '))
-                    print(value_temperature, 'degrees Celsius =', round((value_temperature + 273.15), 2),
-                          'degrees Kelvin')
+                    print(f'{value_temperature} degrees Celsius = {round((value_temperature + 273.15), 2)} '
+                          f'degrees Kelvin')
                 else:
                     print('Incorrect entry. Please try again.')
                     continue
@@ -28,23 +28,23 @@ def main():
                                         'Centimeters -> Inches -------> ')
                 if choose_type_len == '1':
                     value_of_len = float(input('How many kilometers?: '))
-                    print(value_of_len, 'kilometers = ', round((value_of_len * 1.60934), 2), 'miles')
+                    print(f'{value_of_len} kilometers = {round((value_of_len * 1.60934), 2)} miles')
                 elif choose_type_len == '2':
                     value_of_len = float(input('How many meters?: '))
-                    print(value_of_len, 'meters =', round((value_of_len * 1.09361), 2), 'yards')
+                    print(f'{value_of_len} meters = {round((value_of_len * 1.09361), 2)} yards')
                 elif choose_type_len == '3':
                     value_of_len = float(input('How many meters?: '))
-                    print(value_of_len, 'meters =', round((value_of_len / 0.3048), 2), 'feet')
+                    print(f'{value_of_len} meters = {round((value_of_len / 0.3048), 2)} feet')
                 elif choose_type_len == '4':
                     value_of_len = float(input('How many centimeters?: '))
-                    print(value_of_len, 'centimeters =', round((value_of_len * 2.5400013716), 2), 'inches')
+                    print(f'{value_of_len} centimeters = {round((value_of_len * 2.5400013716), 2)} inches')
                 else:
                     print('Incorrect entry. Please try again.')
                     continue
                 break
         elif choose_conv == 'Q':
             print('All the best! :)')
-            quit(0)
+            break
         else:
             print('Incorrect entry. Please try again.')
             continue
