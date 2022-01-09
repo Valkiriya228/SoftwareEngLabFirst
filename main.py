@@ -1,4 +1,4 @@
-def convert_all():
+def main():
     print('Welcome! Here you can translate numbers from different systems (temperature, length)\n'
           'If you want to quit the program, enter Q\n')
     while True:
@@ -51,4 +51,4 @@ def convert_all():
 
 
 if __name__ == '__main__':
-    convert_all()
+    main()

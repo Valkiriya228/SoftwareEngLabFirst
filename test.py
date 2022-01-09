@@ -80,3 +80,11 @@ def test_6():
     assert output[1] == 'Please, select by what criterion the conversion will be carried out - Temperature (1) or ' \
                         'Length (2) or Exit(Q) -------> '
     assert output[2] == 'All the best! :)'
+
+
+test_1()
+test_2()
+test_3()
+test_4()
+test_5()
+test_6()
