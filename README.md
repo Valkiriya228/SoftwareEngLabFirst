@@ -1,4 +1,6 @@
 # Лабораторная работа
+[![Python application](https://github.com/Valkiriya228/SoftwareEngLabFirst/actions/workflows/main.yml/badge.svg)](https://github.com/Valkiriya228/SoftwareEngLabFirst/actions/workflows/main.yml)
+
 В ходе данной лабораторной работы был создан конвертер температур и длин, в зависимости от выбора пользователя.
 Единицы измерения - цельсий, фарингейт, метры, километры, мили,дюймы, футы, ярды и др.
 Пример работы программы:
